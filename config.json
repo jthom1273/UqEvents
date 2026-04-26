@@ -1,0 +1,23 @@
+{
+    "accounts": [
+        "theuqisc",
+        "uqunion",
+        "uqjapansociety",
+        "uqlawsociety"
+    ],
+    "extractor": {
+        "instagram": {
+            "cookies": "cookies.txt",
+            "metadata": true,
+            "download": false,
+            "post-range": "1-5",
+            "postprocessors": [{
+                "name": "metadata",
+                "mode": "custom",
+                "event": "post",
+                "extension": "txt",
+                "format": "{description}\n"
+            }]
+        }
+    }
+}

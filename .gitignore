@@ -1,5 +1,4 @@
 # Credentials — never commit these
-config.json
 cookies.txt
 
 # Raw scraped data
