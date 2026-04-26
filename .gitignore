@@ -1,0 +1,11 @@
+# Credentials — never commit these
+config.json
+cookies.txt
+
+# Raw scraped data
+gallery-dl/
+
+# Python
+__pycache__/
+*.pyc
+.env
