@@ -8,3 +8,5 @@ gallery-dl/
 __pycache__/
 *.pyc
 .env
+config.json
+run_scraper.bat
